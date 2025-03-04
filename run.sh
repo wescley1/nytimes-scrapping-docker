@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Variáveis de ambiente
-SEARCH_PHRASE="${SEARCH_PHRASE:-"liverpool"}"
-CATEGORIES="${CATEGORIES:-"Sports"}"
+SEARCH_PHRASE="${SEARCH_PHRASE:-"musk"}"
+CATEGORIES="${CATEGORIES:-"Business"}"
 MONTHS="${MONTHS:-10}"
 SORTING="${SORTING:-"newest"}"
 
 # Diretório de resultados
-RESULTADOS_DIR="${RESULTADOS_DIR:-"./resultados"}"
+RESULTADOS_DIR="${RESULTADOS_DIR:-"./resultados/output"}"
 
 # Cria o diretório de resultados se ele não existir
 mkdir -p "$RESULTADOS_DIR"
