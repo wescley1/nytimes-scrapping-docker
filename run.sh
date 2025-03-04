@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# Variáveis de ambiente
-#SEARCH_PHRASE="${SEARCH_PHRASE:-"musk"}"
-#CATEGORIES="${CATEGORIES:-"Business"}"
-#MONTHS="${MONTHS:-10}"
-#SORTING="${SORTING:-"newest"}"
+
 
 # Carrega as variáveis do arquivo .env
 source .env
 
-# Agora você pode usar as variáveis do .env
-echo "SEARCH_PHRASE: $SEARCH_PHRASE"
-echo "CATEGORIES: $CATEGORIES"
+# Variáveis de ambiente
+SEARCH_PHRASE="${SEARCH_PHRASE:-"musk"}"
+CATEGORIES="${CATEGORIES:-"Business"}"
+MONTHS="${MONTHS:-10}"
+SORTING="${SORTING:-"newest"}"
 
 # Diretório de resultados
 RESULTADOS_DIR="${RESULTADOS_DIR:-"./resultados"}"
