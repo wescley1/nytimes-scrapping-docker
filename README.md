@@ -16,13 +16,13 @@ Este projeto utiliza Docker para executar um script Python que extrai informaç�
     cd nytimes-scrapping-docker
     ```
 
-2.  **Crie o arquivo `.env`:**
+2.  **Edite o arquivo `.env`:**
 
-    * Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias. Exemplo:
+    * Edite um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias. Exemplo:
 
         ```
-        SEARCH_PHRASE="musk"
-        CATEGORIES="Business"
+        SEARCH_PHRASE="brazil"
+        CATEGORIES="Opinion"
         MONTHS=10
         SORTING=newest
         ```
