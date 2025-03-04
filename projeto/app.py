@@ -294,6 +294,7 @@ driver.quit()
 # Criar DataFrame e salvar os resultados
 df = pd.DataFrame(news)
 df.to_excel(os.path.join(RESULTADOS_DIR, "news_results.xlsx"), index=False)
+print(f"Diretório de resultados: {RESULTADOS_DIR}")
 print(f"Extração concluída! Resultados salvos em {RESULTADOS_DIR}/news_results.xlsx")
 
 print("Fim da execução.")
