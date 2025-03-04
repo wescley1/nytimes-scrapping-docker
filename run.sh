@@ -18,5 +18,6 @@ docker run \
     -e CATEGORIES="$CATEGORIES" \
     -e MONTHS="$MONTHS" \
     -e SORTING="$SORTING" \
-    -v "$(pwd)/$RESULTADOS_DIR:/nytimes-scrapping/resultados" \
+    -v "$(pwd)/$RESULTADOS_DIR:/projeto/resultados" \
+    -v "$(pwd)/.env:/projeto/.env" \
     ghcr.io/wescley1/nytimes-scrapping-docker/one4tech:latest
