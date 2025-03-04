@@ -7,7 +7,7 @@ MONTHS="${MONTHS:-10}"
 SORTING="${SORTING:-"newest"}"
 
 # Diretório de resultados
-RESULTADOS_DIR="${RESULTADOS_DIR:-"./resultados/output"}"
+RESULTADOS_DIR="${RESULTADOS_DIR:-"./resultados"}"
 
 # Cria o diretório de resultados se ele não existir
 mkdir -p "$RESULTADOS_DIR"
