@@ -1,0 +1,7 @@
+selenium
+webdriver-manager
+pandas
+requests
+python-dotenv
+python-dateutil
+openpyxl
