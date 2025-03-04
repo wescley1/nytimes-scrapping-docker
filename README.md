@@ -12,7 +12,7 @@ Este projeto utiliza Docker para executar um script Python que extrai informaç�
 1.  **Clone o repositório:**
 
     ```bash
-    git clone [https://github.com/wescley1/nytimes-scrapping-docker.git](https://www.google.com/search?q=https://github.com/wescley1/nytimes-scrapping-docker.git)
+    git clone https://github.com/wescley1/nytimes-scrapping-docker.git
     cd nytimes-scrapping-docker
     ```
 
