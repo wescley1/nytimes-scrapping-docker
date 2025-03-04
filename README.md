@@ -53,7 +53,7 @@ O script `run.sh` executa um container Docker que:
 
 * Lê as variáveis de ambiente do arquivo `.env` ou da linha de comando.
 * Executa o script Python `projeto/app.py`.
-* Salva os resultados na pasta `resultados/output`.
+* Salva os resultados na pasta `resultados`.
 
 ## Imagem Docker
 
