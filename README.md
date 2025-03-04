@@ -1,11 +1,10 @@
 # NYTimes Scrapping Docker
 
-Este projeto utiliza Docker para executar um script Python que extrai informações do site do NYTimes.
+Este projeto utiliza Docker para executar um script Python que extrai informações do site do NYTimes. Por simplicidade, a pasta projeto/ contem o script python completo e o arquivo Dockerfile com a estrutura q foi utilizada para gerar a imagem.
 
 ## Pré-requisitos
 
 * Docker instalado na máquina.
-* Conta no GitHub.
 
 ## Como executar
 
